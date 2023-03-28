@@ -13,8 +13,7 @@ function App() {
         <Routes>
           <Route path="/stocks" element={<Stocks />} />
           <Route path="/about" element={<About />} />
-
-          <Route path="/stocks/:id" element={<StockDetail />} />
+          <Route path="/stocks/:symbol" element={<StockDetail />} />
         </Routes>
       </BrowserRouter>
     </div>
